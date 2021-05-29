@@ -5,6 +5,12 @@ namespace App\Http\Controllers;
 use Laravel\Lumen\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\Auth;
 
+/**
+ * @OA\Info(
+ *    title="Abdilah's Backend API Test",
+ *    version="1.0.0",
+ * )
+ */
 class Controller extends BaseController
 {
     protected function respondWithToken($token)
